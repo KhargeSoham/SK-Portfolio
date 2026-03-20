@@ -42,7 +42,7 @@ header h1 {
     color: #aaa;
 }
 
-/* Section Title */
+/* Section Titles */
 h2 {
     text-align: center;
     font-size: 1.8rem;
@@ -97,8 +97,8 @@ h2 {
 }
 
 .skill:hover {
-    background: #fff;
-    color: #000;
+    background: #ffffff;
+    color: #000000;
 }
 
 /* Projects */
@@ -118,4 +118,88 @@ h2 {
 
 .project-card:hover {
     transform: translateY(-4px);
-   
+    border-color: #444;
+}
+
+.project-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.project-card h3 {
+    padding: 15px 10px 5px;
+    color: #ffffff;
+}
+
+.project-card p {
+    padding: 0 15px 20px;
+    font-size: 0.9rem;
+    color: #bbb;
+}
+
+/* Resume */
+#resume {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    background: #ffffff;
+    color: #000000;
+    padding: 12px 28px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+    border: 1px solid #ffffff;
+}
+
+.btn:hover {
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+/* Contact */
+#contact {
+    text-align: center;
+    border-top: 1px solid #222;
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+#contact a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #111;
+    border-top: 1px solid #222;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-img {
+        width: 170px;
+    }
+}
