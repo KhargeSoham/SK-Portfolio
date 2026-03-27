@@ -1,4 +1,4 @@
-# SOHAMKHARGE-Portfolio
+# Soham_kharge-Portfolio
 A portfolio representing my journey as a developer and designer.
 # 🌐 Personal Portfolio Website
 
@@ -15,12 +15,12 @@ It reflects my passion for **Java development**, **web development**, **design**
 
 ## ✨ Features
 
-- 💼 **Professional Header Section** – Displays name, logo, and tagline.  
-- 👤 **About Section** – Includes a short bio and image.  
-- 🧠 **Skills Section** – Lists key technical and creative skills.  
-- 🧩 **Projects Section** – Showcases selected works with descriptions and visuals.  
-- 📄 **Resume Section** – Link to download my resume in PDF format.  
-- 📬 **Contact Section** – Email and phone number for easy communication.  
-- ⚙️ **Fully Responsive Design** – Adapts to any device screen size.
+- 💼 **Professional Header Section**   
+- 👤 **About Section**   
+- 🧠 **Skills Section**  
+- 🧩 **Projects Section**   
+- 📄 **Resume Section**   
+- 📬 **Contact Section** 
+- ⚙️ **Fully Responsive Design** 
 
 ---
